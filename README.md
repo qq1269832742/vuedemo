@@ -8,7 +8,7 @@ vue + webpack
   3.新建自己的vue项目：vue init webpack vuedemo    
   4.打开自己新建项目的目录：vue init webpack vuedemo    
   5.跑起项目来检测下： npm run dev    
-#遇到的坑：记得找到build目录下的webpack.base.conf.js文件，注释检测代码的插件，此模块导致一部分语法不正确，一直报错，其实没毛病的。下面是注释部分,这部分的注释坑以后会解决的，前期先熟悉为主，熟悉时间的基础上我们讨论真知
+##遇到的坑：记得找到build目录下的webpack.base.conf.js文件，注释检测代码的插件，此模块导致一部分语法不正确，一直报错，其实没毛病的。下面是注释部分,这部分的注释坑以后会解决的，前期先熟悉为主，熟悉时间的基础上我们讨论真知
 //const createLintingRule = () => ({      
 //test: /\.(js|vue)$/,   
 //loader: 'eslint-loader',  
